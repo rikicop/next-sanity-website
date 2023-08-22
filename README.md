@@ -7,7 +7,7 @@ CUENTA SANITY.IO UTILIZADA
 0. Creación de un proyecto Sanity - 9:40
 
 1. La cuenta de Sanity.io que estás usando para este proyecto en particular es
-   la de github que tienes(ruperto1@protonmail.com)
+   la de github que tienes(rupe*****@prot*****com)
 
 2. El projectId que se encuentra en sanity.config.ts es muy importante y lo vas
    a utilizar en tu aplicación de Next.js - 13:40
@@ -37,6 +37,6 @@ CUENTA SANITY.IO UTILIZADA
 ## Repaso 40:00
 
 
-### Y si lo guardas en github ?, solo debes guardar(aparentemente)  next-sanity-website 
+### github  next-sanity-website 
 
 https://www.youtube.com/watch?v=2tQNI9NuBUo
