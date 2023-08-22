@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+CURSO - https://www.youtube.com/watch?v=OcTPaUfay5I - KAPEHE
 
-## Getting Started
+CUENTA SANITY.IO UTILIZADA
 
-First, run the development server:
+## Instalación y Configuración de Next y Sanity 00:00
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+0. Creación de un proyecto Sanity - 9:40
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. La cuenta de Sanity.io que estás usando para este proyecto en particular es
+   la de github que tienes(ruperto1@protonmail.com)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. El projectId que se encuentra en sanity.config.ts es muy importante y lo vas
+   a utilizar en tu aplicación de Next.js - 13:40
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Para abrir tu projecto desde manage.sanity.io, puedes buscar "Manage Project" en la foto de Perfil
 
-## Learn More
+4. CORS origins: Donde dice API al lado de Settings, minuto 16 del video. "Allow Credentials"
 
-To learn more about Next.js, take a look at the following resources:
+5. Embeding the Sanity Studio, 23:00
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+6. Definición de sanity.config.ts dentro de next-sanity-web
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+7. Se van a importar los plugins necesarios para poder correr sanity del lado del cliente - 26:24
 
-## Deploy on Vercel
+8. La página admin de sanity se va a correr del lado del "CLIENTE". 29:08
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+''localhost:3000/admin''
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Creación de Schema para Sanity - 31:40
+
+## Sanity Block type - 36:00
+
+## Como agrupar todos los Schemas facilmente a medida que creo más - 37:32
+
+## Displaying Data - 39:04
+
+## Repaso 40:00
+
+
+### Y si lo guardas en github ?, solo debes guardar(aparentemente)  next-sanity-website 
+
+https://www.youtube.com/watch?v=2tQNI9NuBUo
