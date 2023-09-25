@@ -1,6 +1,8 @@
+import { Project } from "@/types/Project";
+import { Student } from "@/types/Student";
 import { createClient, groq } from "next-sanity";
 
-export async function getProjects() {
+export async function getProjects(): Promise<Project[]> {
   const client = createClient({
     projectId: "kk8b4z7o",
 
@@ -22,7 +24,7 @@ export async function getProjects() {
   );
 }
 
-export async function getStudents() {
+export async function getStudents(): Promise<Student[]> {
   const client = createClient({
     projectId: "kk8b4z7o",
 

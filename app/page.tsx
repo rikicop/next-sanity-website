@@ -1,7 +1,6 @@
 //import { getProjects } from "@/sanity/sanity-utils";
-import { getStudents } from "@/sanity/sanity-utils";
 //import { Project } from "@/types/Project";
-import { Student } from "@/types/Student";
+import { getStudents } from "@/sanity/sanity-utils";
 
 export default async function Home() {
   //const projects = await getProjects();
@@ -9,7 +8,7 @@ export default async function Home() {
 
   return (
     <div>
-      {students.map((student: Student) => (
+      {students.map((student) => (
         <div key={student._id}>{student.name}</div>
       ))}
     </div>
