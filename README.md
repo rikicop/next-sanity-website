@@ -43,6 +43,10 @@ CUENTA SANITY.IO UTILIZADA
 
 ## Creación de los Types de TypesScript - 50:45
 
+Lo hace de una manera muy interesante, ya que mantiene todos los types
+dentro de sanity-utils, quedando los componentes principales sin mostrar
+directamente el uso de typescript, cuando de hecho si están tipados(Typed).
+
 ### github next-sanity-website
 
 https://www.youtube.com/watch?v=2tQNI9NuBUo
