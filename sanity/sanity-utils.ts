@@ -39,7 +39,7 @@ export async function getStudents(): Promise<Student[]> {
       _createdAt,
       name,
       "slug": slug.current,
-      "image": image.asset->url,
+      "avatar": avatar.asset->url,
       url,
       feedback
     }`

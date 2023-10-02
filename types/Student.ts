@@ -1,21 +1,17 @@
-import  {PortableTextBlock} from "sanity";
+import { PortableTextBlock } from "sanity";
 
 export type Student = {
-	
-	_id: string;
+  _id: string;
 
-	_createdAt: Date;
+  _createdAt: Date;
 
-	name: string;
+  name: string;
 
-	slug: string; 
+  slug: string;
 
-	image: string;
+  avatar: string;
 
-	url: string;
+  url: string;
 
-	feedback: PortableTextBlock[];
-
-}
-
-
+  feedback: PortableTextBlock[];
+};

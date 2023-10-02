@@ -43,6 +43,8 @@ CUENTA SANITY.IO UTILIZADA
 
 ## Creación de los Types de TypesScript - 50:45
 
+## Configuración de next.config.js para que acepte la imagen(cdn.sanity.io) - 1:10:00
+
 Lo hace de una manera muy interesante, ya que mantiene todos los types
 dentro de sanity-utils, quedando los componentes principales sin mostrar
 directamente el uso de typescript, cuando de hecho si están tipados(Typed).
