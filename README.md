@@ -43,11 +43,25 @@ CUENTA SANITY.IO UTILIZADA
 
 ## Creación de los Types de TypesScript - 50:45
 
-## Configuración de next.config.js para que acepte la imagen(cdn.sanity.io) - 1:10:00
-
 Lo hace de una manera muy interesante, ya que mantiene todos los types
 dentro de sanity-utils, quedando los componentes principales sin mostrar
 directamente el uso de typescript, cuando de hecho si están tipados(Typed).
+
+## Creación de "Grid cols..." para que quede como "tarjetas" 1:05:00
+
+## Configuración de next.config.js para que acepte la imagen(cdn.sanity.io) - 1:10:00
+
+## Como crear un Dynamic Route 1:14:00
+
+Convención
+Se puede crear un segmento dinámico encerrando el nombre de una carpeta
+entre corchetes: [folderName]. Por ejemplo, [id] o [slug].
+
+## noopener noreferrer - 1:23:45
+
+## Instalación de @portabletext/react para ver feedback - 1:28:00
+
+rel="noopener noreferrer" is often used when you want to open a link in a new tab or window while enhancing security and privacy by preventing access to the window.opener object and not sending a Referer header.
 
 ### github next-sanity-website
 
