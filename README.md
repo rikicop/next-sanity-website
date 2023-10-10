@@ -61,6 +61,10 @@ entre corchetes: [folderName]. Por ejemplo, [id] o [slug].
 
 ## Instalación de @portabletext/react para ver feedback - 1:28:00
 
+## Modificación de tailwind en varias páginas debido a la incorporación de Layout - 1:34:00
+
+## Next.js "Organizational" Folders para resolver problema con "Layout" - 1:35:40
+
 rel="noopener noreferrer" is often used when you want to open a link in a new tab or window while enhancing security and privacy by preventing access to the window.opener object and not sending a Referer header.
 
 ### github next-sanity-website

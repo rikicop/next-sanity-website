@@ -13,7 +13,7 @@ export default async function Student({ params }: Props) {
   const student = await getStudent(slug);
 
   return (
-    <div className="max-w-3xl mx-auto py-20">
+    <div>
       <header className="flex items-center justify-between">
         <h1
           className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 
