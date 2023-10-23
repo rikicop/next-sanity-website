@@ -5,13 +5,23 @@ export type Student = {
 
   _createdAt: Date;
 
-  name: string;
+  week: string;
+
+  assistance: string; // Si asistió o no a clases ese día
+
+  name: string; // Estudiante
 
   slug: string;
 
-  avatar: string;
+  avatar: string; // Foto
 
   url: string;
 
-  feedback: PortableTextBlock[];
+  piece: string; // Pieza
+
+  goals: string; // Objetivos (puede ser una matriz de cadenas si hay varios objetivos)
+
+  excerpt: string; // Fragmento
+
+  notes: PortableTextBlock[]; // Notas u Observaciones
 };

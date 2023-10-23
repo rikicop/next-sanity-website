@@ -4,6 +4,16 @@ const student = {
   type: "document",
   fields: [
     {
+      name: "week",
+      title: "Week",
+      type: "string",
+    },
+    {
+      name: "assistance",
+      title: "Assistance",
+      type: "string",
+    },
+    {
       name: "name",
       title: "Name",
       type: "string",
@@ -15,13 +25,18 @@ const student = {
       options: { source: "name" },
     },
     {
-      name: "sheet",
-      title: "Sheet",
+      name: "piece",
+      title: "Piece",
       type: "string",
     },
     {
-      name: "fragment",
-      title: "Fragment",
+      name: "goals",
+      title: "Goals",
+      type: "string",
+    },
+    {
+      name: "excerpt",
+      title: "Excerpt",
       type: "string",
     },
     {
@@ -43,8 +58,8 @@ const student = {
       type: "url",
     },
     {
-      name: "feedback",
-      title: "Feedback",
+      name: "notes",
+      title: "Notes",
       type: "array",
       of: [{ type: "block" }],
     },

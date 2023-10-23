@@ -34,7 +34,7 @@ export default async function Student({ params }: Props) {
       </header>
       {/* Content */}
       <div className="text-lg text-gray-700 mt-5">
-        <PortableText value={student.feedback}></PortableText>
+        <PortableText value={student.notes}></PortableText>
       </div>
       {/* IMAGE */}
       <Image
