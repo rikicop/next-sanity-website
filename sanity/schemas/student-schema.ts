@@ -11,7 +11,7 @@ const student = {
     {
       name: "assistance",
       title: "Assistance",
-      type: "string",
+      type: "boolean",
     },
     {
       name: "name",

@@ -7,7 +7,7 @@ export type Student = {
 
   week: Date;
 
-  assistance: string; // Si asistió o no a clases ese día
+  assistance: boolean; // Si asistió o no a clases ese día
 
   name: string; // Estudiante
 
