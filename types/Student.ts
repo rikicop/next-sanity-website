@@ -5,7 +5,7 @@ export type Student = {
 
   _createdAt: Date;
 
-  week: string;
+  week: Date;
 
   assistance: string; // Si asistió o no a clases ese día
 

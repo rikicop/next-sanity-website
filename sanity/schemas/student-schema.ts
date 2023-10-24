@@ -6,7 +6,7 @@ const student = {
     {
       name: "week",
       title: "Week",
-      type: "string",
+      type: "date",
     },
     {
       name: "assistance",
