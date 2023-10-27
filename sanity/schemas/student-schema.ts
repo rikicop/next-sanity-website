@@ -25,9 +25,10 @@ const student = {
       options: { source: "name" },
     },
     {
-      name: "piece",
-      title: "Piece",
-      type: "string",
+      name: "pieces",
+      title: "Pieces",
+      type: "array",
+      of: [{ type: "string" }],
     },
     {
       name: "goals",
