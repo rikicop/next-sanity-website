@@ -44,7 +44,9 @@ const student = {
       name: "avatar",
       title: "Avatar",
       type: "image",
-      options: { hotspot: true },
+      options: {
+        hotspot: true,
+      },
       fields: [
         {
           name: "alt",

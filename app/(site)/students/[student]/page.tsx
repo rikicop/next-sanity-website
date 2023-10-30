@@ -38,7 +38,10 @@ export default async function Student({ params }: Props) {
       </div>
       {/* IMAGE */}
       <Image
-        src={student.avatar}
+        src={
+          student.avatar ||
+          "https://images.pexels.com/photos/14826118/pexels-photo-14826118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
         alt={student.name}
         width={1920}
         height={1080}
