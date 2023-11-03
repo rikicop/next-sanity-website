@@ -28,7 +28,7 @@ export async function getStudents(): Promise<Student[]> {
       "slug": slug.current,
       "avatar": avatar.asset->url,
       url,
-      feedback
+      notes
     }`
   );
 }
@@ -42,7 +42,7 @@ export async function getStudent(slug: string): Promise<Student> {
       "slug": slug.current,
       "avatar": avatar.asset->url,
       url,
-      feedback
+      notes
     }`,
     { slug }
   );
