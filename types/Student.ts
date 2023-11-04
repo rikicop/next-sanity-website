@@ -9,6 +9,8 @@ export type Student = {
 
   assistance: boolean; // Si asistió o no a clases ese día
 
+  narcissus: boolean; // Relativa carencia de empatía(manejar con discreción)
+
   name: string; // Estudiante
 
   slug: string;

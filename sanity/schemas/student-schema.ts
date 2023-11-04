@@ -14,6 +14,12 @@ const student = {
       type: "boolean",
     },
     {
+      name: "narcissus",
+      title: "Narcissus",
+      description: "This field indicates a Lack of sensitivity",
+      type: "boolean",
+    },
+    {
       name: "name",
       title: "Name",
       type: "string",
